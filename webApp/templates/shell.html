@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<link href="/static/index.css" rel="stylesheet"/>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>AEC|Home</title>
+<!-- META TAGS -->
+<meta name="description" content="Amy E Canham web site" />
+<meta name="author" content="Amy Canham | canham@mit.edu">
+<meta name="keywords" content="Amy Canham, Amy E Canham, Amy Elizabeth Canham, Amy Canham MIT, Media Lab, Massachusetts Institute of Technology, Amy Canham Tata, MIT Tata fellowship" />
+<!-- GOOGLE ANALYTICS -->
+<script type="text/javascript">
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-34422109-1']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+</script>
+<!-- SEARCH BAR -->
+<script>
+  (function() {
+    var cx = '008141468425200375258:diqnvc0nzau';
+    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+  })();
+</script>  
+</head>
+
+<BODY>
+<!-- NAV BAR -->
+<div id="nav_topic" align="center" style="position:relative; top:-20px">
+<ul id="nav_ul">
+<li id="nav_home" class="current"><a href="/">HOME.</a></li>
+<li id="nav_about"><a href="/about">ABOUT.</a></li>
+<li id="nav_projects"><a href="/projects">PROJECTS.</a></li>
+</ul>
+</div>
+
+<table cellpadding="0" cellspacing="10">
+<tr>
+<th>
+<!-- SIDE BAR --> 
+<td valign="top" width="100">
+Amy Canham<BR>
+<a href="http://cameraculture.media.mit.edu">Camera Culture</a><BR>
+<a href="http://media.mit.edu">MIT Media Lab</a><BR><BR>
+canham[at]<BR>
+media[dot]<BR>
+mit[dot]<BR>
+edu 
+</td>
+</th>
+<th>
+<td valign="top" width="500">
+<!-- PAGE BODY --> 
+{% block content %}
+{% endblock %}
+</td>
+</th>
+</tr>
+</table>
+<table>
+<tr>
+<th>
+<td valign="top" width="600">
+<gcse:searchbox-only></gcse:searchbox-only> 
+</td>
+</th>
+</tr>
+</table>
+</BODY>
+</HTML>
